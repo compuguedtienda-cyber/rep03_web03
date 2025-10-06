@@ -10,8 +10,8 @@
 :root {
 /* Colores */
 --white-color:#fff;
---dark-color:#252525;
---primary-color:#3b141c;
+--dark-color:#3b3838;
+--primary-color:#080808;
 --secondary-color:#f3961c;
 --light-pink-color:#faf4f5;
 --medium-gray-color:#ccc;
@@ -170,7 +170,7 @@ header .navbar {
     padding: 10px 26px;
     border: 2px solid transparent;
     color: var(--primary-color);
-    border-radius: var(--border-radius-m);
+    border-radius: var(--border-radius-s);
     background: var(--secondary-color);
     font-weight: var(--font-weight-medium);
     transition: 0.3s ease;
@@ -189,7 +189,7 @@ header .navbar {
 }
 
 .hero-section .hero-image-wrapper {
-    max-width: 450px;
+    max-width: 400px;
     margin-right: 30px;
 }
 
