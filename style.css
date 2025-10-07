@@ -100,6 +100,19 @@ header .navbar {
     justify-content: space-between;
 }
 
+/* Probando codigo */
+.claselogo .nav-logo{ /* Controla el logotipo */
+    display: flex;
+    align-items: center;
+}
+
+.claselogo .nav-logo img {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+/* Probando codigo */
+
 .navbar .nav-logo .logo-text {
     color: var(--white-color);
     font-size: var(--font-size-xl);
